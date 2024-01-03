@@ -1,0 +1,141 @@
+Unit 4 Questions and Answers
+
+Q1. What is a computer network?
+
+A1. A computer network comprises two or more computers that are linked together for the purpose of transferring data and communicating instructions.
+
+---
+
+Q2. List the different types of network topologies?
+
+A2. (i) Point to point; (ii) Mesh; (iii) Bus; (iv) Tree; (v) Hybrid.
+
+---
+
+Q3. How do clients and servers differ?
+
+A3. The client requests information while the server performs tasks to provide this information. The main difference between clients and servers is that clients refrain from sharing information, while the servers share resources.
+
+---
+
+Q4. What is a LAN, WLAN, VLAN, WAN?
+
+A4. - Local Area Network (LAN): Connects computer systems within a limited geographical area like a school or office building.
+   - Wireless Local Area Network (WLAN): Similar to LAN but with wireless connections.
+   - Virtual Local Area Network (VLAN): LAN where computers are grouped in virtual workgroups.
+   - Wide Area Network (WAN): Connects computer systems far apart, in different cities or countries, such as the Internet.
+
+---
+
+Q5. How do SAN and PAN differ?
+
+A5. - Storage Area Network (SAN): Connects databases and servers but no computers.
+   - Personal Area Network (PAN): Connects different devices of a single individual, typically through wired (USB) or wireless (Bluetooth) connections.
+
+---
+
+Q6. What is P2P?
+
+A6. Peer-to-Peer (P2P) is a network where all computers (peers) act as both clients and servers. In a P2P network, the servers (which are also the computers) are decentralized, allowing for efficient resource sharing.
+
+---
+
+Q7. What is VPN? How does it work? What are the types? What are the different securities?
+
+A7. Virtual Private Network (VPN) allows outside computers to join a private LAN. It creates a tunnel through the Internet for secure communication. Types include Site-to-Site VPN and Remote-Access VPN. Security technologies: secure VPN, trusted VPN, and hybrid VPN.
+
+---
+
+Q8. How is a VPN different from an Intranet?
+
+A8. An Intranet is a network, while a VPN is a method of connection to a network. 
+
+---
+
+Q9. How is an IP address different from a MAC address?
+
+A9. An IP address is a dynamic or static identifier assigned to devices on a network, while a MAC address is a unique hardware identifier embedded in network interfaces.
+
+---
+
+Q10. What is a DNS?
+
+A10. A Domain Name Server (DNS) translates human-readable domain names (e.g., www.google.com) to numeric IP addresses.
+
+---
+
+Q11. Define Protocols?
+
+A11. Protocols are international rules governing network communication, ensuring systems can communicate with each other.
+
+---
+
+Q12. Define layers?
+
+A12. Layers in networking serve different functions and use various protocols to obtain information, breaking down complex processes into modular components.
+
+---
+
+Q13. Define specific standards?
+
+A13. Specific standards are a common set of rules (e.g., OSI) followed by hardware and software in a network, allowing computers to communicate effectively.
+
+---
+
+Q14. Define network standards?
+
+A14. The most common network standard is the Open Systems Interconnection (OSI) model, which facilitates communication across various systems through seven layers.
+
+---
+
+Q15. In data transmission, give the direction, method, and synchronization?
+
+A15. 
+- Direction: Simplex, Half-duplex, and Full-duplex.
+- Method: Serial and Parallel.
+- Synchronization: Asynchronous and Synchronous.
+
+---
+
+Q16. What are the two types of data compression? How do they differ?
+
+A16. 
+- Lossless compression: Compresses files without loss of data, allowing recreation of the original file. (e.g., PNG)
+- Lossy compression: Achieves higher compression by removing unnecessary data, resulting in a loss of some information. (e.g., JPEG)
+
+---
+
+Q17. What are the five stages of website communication?
+
+A17. 
+1. User's web browser sends a message to connect with the required website secured by SSL.
+2. Web browser requests the web server to identify itself.
+3. Web server responds by sending a copy of the SSL certificate to the user's web browser.
+4. If the web browser authenticates the certificate, it sends a message back to allow communication.
+5. SSL encrypted 2-way data transfer begins.
+
+---
+
+Q18. What are the different types of encryption?
+
+A18. 
+- Symmetric key encryption: Uses the same key for encryption and decryption.
+- Asymmetric key encryption: Uses a public key for encryption and a private key for decryption.
+
+---
+
+Q19. How does a firewall work? What are the different types of firewalls?
+
+A19. A firewall controls data flow access throughout the network. Types include proxy servers and gateways.
+
+---
+
+Q20. What are the different forms of hacking a computer or network?
+
+A20. 
+- Malware
+- Pharming
+- Phishing
+- Brute Force
+- Shoulder Surfing
+- Cracking

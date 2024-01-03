@@ -1,0 +1,122 @@
+Unit 2 Questions and Answers
+
+
+Q1. What are the different types of numbers systems and what is the difference between them?
+
+A1. Denary, binary, and hexadecimal. The denary number system is a positional system that uses ten unique singular numbers 0-9 to represent any number. A binary system means that all the data and instructions that are stored in a computer are stored in sequences of binary numbers, which is just 0 or 1 value. The hexadecimal number system is a positional system that uses 16 unique singular numbers 0-9 and A-F (10-15) to represent any number. The hexadecimal number system is to the base 16 for which it is the commonly used number system in computers and coding.
+
+---
+
+Q2. Convert the ordinary number 39 into binary form?
+
+A2. 100111
+
+---
+
+Q3. Convert the ordinary number -39 into binary form?
+
+A3. 1011001
+
+---
+
+Q4. Convert the ordinary number 32.25 into binary form?
+
+A4. 100000.010000
+
+---
+
+Q5. When should we use the two’s complement representation?
+
+A5. When we are trying to convert a negative ordinary number into binary form.
+
+---
+
+Q6. Convert the binary number 10101010 into an ordinary number by standard method?
+
+A6. 170
+
+---
+
+Q7. Convert the binary number 10101010 into an ordinary number by MSB method?
+
+A7. -42
+
+---
+
+Q8. Convert the hexadecimal number 4E9 into binary form?
+
+A8. 100111001001
+
+---
+
+Q9. Convert the ordinary number 59 into hexadecimal form?
+
+A9. 3B
+
+---
+
+Q10. Why use hexadecimal over that of binary?
+
+A10. All computer programs are run using just 0 and 1; however, using hexadecimal numbers makes coding easier, faster, and reduces errors when compared to the binary system. 0100 is a computer command in machine code, equivalent to 4 in hexadecimal. It is enough for the programmer to type a single value ‘4’ when compared to four values ‘0100’. Essentially, we can represent many different combinations by quoting just a single value.
+
+---
+
+Q11. Name five applications that use hexadecimal and how are they used?
+
+A11. (i) Colours: Hexadecimal numbers are used to represent colours. A colour is represented in #RRGGBB format. RR, GG, and BB represent the hex number of red, green, and blue. (ii) Web Address: Hexadecimal numbers can be used to represent website addresses. By using %, this denotes that hexadecimal number is used. The letter w is represented by %77 in hexadecimal form. (iii) Strings: A string is a sequence of characters. For the UTF-8 encoding scheme, each character consists of 8 bits or a single Byte. (iv) MAC Address: The Media Access Control (MAC) address is made up of 12 hexadecimal values NN: NN: NN: DD: DD: DD, giving a total of 48 bits (12 x 4). The first half of the address represents the identification number of the manufacturer and the second half of the number represents the serial number of the device. (v) Error Location: Computer error messages contain a hexadecimal number that represents the memory location of the error.
+
+---
+
+Q12. A photograph of 250 pixels x 150 pixels is represented using a 32 bit colour system with 30 bits for its colour and 2 bits for its opacity. (a) Calculate the number of possible colours and (b) the file in Bytes.
+
+A12. (a) For 30 bits of colours giving 10 bits for red, 10 bits for green, and 10 bits for blue, combinations of colours are then 2^10 x 2^10 + 2^10 = 1,073,741,824. (b) In a 32-bit colour system with 2 Bytes for each pixel, it gives 250 x 150 x 2 = 75000 Bytes.
+
+---
+
+Q13. What is the web address of www.computers.com in hexadecimal form?
+
+A13. %77%77%77%2E%63%6F%6D%70%75%74%65%72%73%2E%63%6F%6D
+
+---
+
+Q14. What are the different types of logic gates? For each give the meaning, statement and the diagram.
+
+A14. - Direct Gate: A simple light circuit follows these rules. The button (input) when pressed (1) gives the light (output) as on (1). The button when not pressed (0) gives the light as off (0). - NOT Gate: The NOT gate is the opposite of the input. Therefore, if button A is 0 (off), then the light X is 1 (on), and if button A is 1 (on), then the light X is 0 (off). Essentially, the button needs to be released for the light to work. - AND Gate: The AND gate has two buttons in a series, whereby both buttons need to be pressed in order for the light to be on. If either of the buttons is off, then the light shall also be off. - NAND Gate: The NAND gate is the opposite of the AND gate. Therefore, when the AND gate is 0, the NAND gate is 1, and when the AND gate is 1, the NAND gate is 0, essentially the inverted version of the AND gate. - OR Gate: The OR gate follows a parallel circuit in which if either of the buttons is pressed, the light shall be on. - NOR Gate: The NOR gate is the opposite of the OR gate. Therefore, when the OR gate is 0, the NOR gate is 1, and when the OR gate is 1, the NOR gate is 0, which is essentially the inverted version of the OR gate. - XOR Gate: The XOR gate is only on when there is a difference between the inputs. If both inputs are the same, either both off or both on, then the output is off.
+
+---
+
+Q15. Complete the logic table and draw the logic circuit for this logic statement X = (A OR B) NAND C.
+
+A15. (Table and circuit details not provided in the text)
+
+---
+
+Q16. Make your own practical situation like cancel the meeting with train and taxis. This should include the statements of what they mean and also the logic table.
+
+A16. (Practical situation and logic table not provided in the text)
+
+---
+
+Q17. Using mathematical simplification draw the logic table for X = A OR B AND A OR B.
+
+A17. (Table details not provided in the text)
+
+---
+
+Q18. Is X = A OR B OR Q the same as X = B OR A OR Q?
+
+A18. Yes, by using a Venn diagram, we can see that both shall give the same shaded region.
+
+---
+
+Q19. What are the main types of error checking and how are they used in checking for errors?
+
+A19. (i) Parity checking uses a parity bit, 0 for even and 1 for odd. This bit is allocated before transmission and then checked against the data received. (ii) For Echo checks, the data is sent from the sender to the receiver, and then the data received is sent back to the sender. The sender compares the
+
+ two sets of data for transmission errors. If both data are the same, then this gives an error-free echo check. (iii) The sender transmits data with a checksum value. When received at the receiver end, the checksum on the data is calculated. If the calculated checksum is equal to what the sender told us the checksum is, then there are no transmission errors. If these checksums are not equal, then there was an error in receiving the data.
+
+---
+
+Q20. If the sender told us that the checksum should be 134 for the sum of received data of 903 then was there an error in the received data? Show by way of calculations.
+
+A20. Method 2, as the sum of binary values is more than 255 Step 1. Divide 903 / 256 = 3.5 Step 2. Round down 3.5 to 3 Step 3. Times 3 by 256 = 768 Step 4. Minus 903 - 768 = 135 Checksum value sent was 134, but the checksum value calculated was 135; therefore, there was an error in the received data.

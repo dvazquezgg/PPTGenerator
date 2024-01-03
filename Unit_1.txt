@@ -1,0 +1,121 @@
+Unit 1 Questions & answers
+
+Q1. What are the main things to consider in planning to build a new system?
+
+A1. There are a lot of different stages in building a new system and considerations to be discussed; (i) hardware, (ii) software, (iii) personal, (iv) environment, and (v) ethics. In particular, having a new system would mean that people need to be trained in how to use this new system properly.
+
+---
+
+Q2. What is a feasibility report?
+
+A2. Feasibility Report evaluates and analyses a project based on: (i) Technical Feasibility; is the current technology sufficient to implement the new system? (ii) Economic Feasibility; is the proposed system cost effective? (iii) Schedule Feasibility; what is the timeframe for completion? (iv) Legal Feasibility; are there any conflicts with this new system and the law? (v) Operational Feasibility; is the current company in a position to maintain the new system?
+
+---
+
+Q3. What is a legacy system?
+
+A3. A legacy system refers to an old technology hardware or software.
+
+---
+
+Q4. What are the four types of changeover systems? How do they differ?
+
+A4. (i) Parallel changeover is when both systems (old and new) work in parallel for a short time. This method limits the risks but requires higher maintenance and thus costs more. Once the new system is at a stage of independence, then the old system is retired and all efforts are placed solely on the new system. (ii) Direct changeover is when there is no time given to the transition from old to new. The company immediately imposes the new system and retires the old system. It can be risky but the reward is it comes at a lower financial cost. (iii) Pilot changeover is when there is a trial run done in one of the office's of the company, which later then spreads out to all the other offices owned by that company. The pilot office serves as the beta tester and is used for feedback on the new system. Once the new system becomes successful at the pilot office, the company then uses direct changeover for all the remaining offices as a way to implement the new system. (iv) Phased changeover is when the company decides to just change one aspect of the system at a time, phasing the different module changes out over time. As a system is made up of a number of different modules, it allows the company to concentrate on just one module at a time before going on to the next module.
+
+---
+
+Q5. What are the different types of software amendments?
+
+A5. The four main ways of software changes are done through: (i) Updates; amends error in the system (ii) Upgrades; adds new functionality to the system (iii) Patches; adds new security to the system (iv) Releases; final working version of the new system.
+
+---
+
+Q6. What is the different type of software testing? When should you use them?
+
+A6. (i) Alpha Testing is done before the product is made available to the public. It is done by the employees of the company and not by the actual end users. (ii) Beta Testing is done in the initial release to the public. It is done by a group of end users that actually use the product and that are outside the company. (iii) Dry Run Testing is conducted using pen and paper by the programmer. During the dry run testing, the programmer mentally runs the algorithm. The programmer then looks at the sources code and decides on what the output of the run should be. (iv) Functional Testing tests individual commands, to see if they perform and function correctly. (v) Unit Testing is testing individual parts of the product. (vi) Integration Testing is when the entire product is tested at the same time, in order to verify that all components of the product are working together. (vii) Debugging is a systematic process of finding errors (bugs) in the product and then amending them. (viii) Data Testing is to actually see if the data recorded is correct and does it have any outliners. After running all the tests, you should have collected data within each test. By checking for these outliners, you may see that there is either a problem with the product or just a mistake by the data collector. The main test data used are normal data, boundary data, and erroneous data.
+
+---
+
+Q7. What is the difference between validation and verification?
+
+A7. Validation is done automatically by the computer to ensure that only data that is reasonable is accepted by the program. Validation has nothing to do with checking if the data is the same as the original data, only that the entered data is reasonable and so it may or may not be the correct data. Verification is used to check that the entered data is actually the correct data. It checks to make sure the original data does not change as it is entered by humans into the program. It is a way of checking that the data entered into the computer is the same as the data written down.
+
+---
+
+Q8. What is internal documentation?
+
+A8. Internal documentation is the code comprehension features and details provided as part of the source code itself. It normally is only for the technicians, whereby it is very difficult for the source code to be read by the public user.
+
+---
+
+Q9. What is external documentation?
+
+A9. External documentation is a separate document from the program itself. It is provided as supporting documentation such as a user guide or minimum software requirements. These documentations are generally provided online in a readable format (PDF) so that the public user can quickly and easily read through the document. The document should include all the instructions that are mandatory for the program to work.
+
+---
+
+Q10. What are the three main types of training?
+
+A10. (i) Self Instruction: This allows the user to learn at their own pace and in their own time. Manuals, books, video tutorials, and guided assignments are the typical ways of providing such training. (ii) Formal Classes: In the traditional setting, a classroom allows the teacher to instruct the pupils of the learning content. (iii) Remote Distance Learning: This moves the traditional physical classroom to a virtual environment, generally through a Virtual Learning Environment (VLE) like Google Classroom or Moodle and video conferencing such as Google Meet or Zoom.
+
+---
+
+Q11. What is the difference between self instruction training and remote distance training?
+
+A11. While self instruction can be considered part of remote distance learning, self instruction essentially means the learner leads on their own learning, while remote distance learning, the learning is lead by a teacher.
+
+---
+
+Q12. Who are the stakeholders?
+
+A12. Stakeholders are individuals, teams, or companies that have an interest in the development and completion of a product. Stakeholders are also people that may not necessarily have an interest in the product but are affected by it.
+
+---
+
+Q13. How are some stakeholders different than end users?
+
+A13. An End User is a person who is actually going to use the product while the stakeholder may or may not actually use the product. The salesperson of a TV is a stakeholder but not an end user, while the person that looks at the TV is both the end user and stakeholder. As you can see, all end users are stakeholders but not all stakeholders are end users.
+
+---
+
+Q14. What are the typical ways of collecting information?
+
+A14. (i) Interview: This
+
+ is a direct face-to-face (physically or virtually) meeting that focuses on obtaining information by means of talking. (ii) Questionnaire: This is a set of questions in the form of a survey that the respondent needs to complete. It can be in paper form or online. (iii) Observations: This is where a manager goes to a department and observes the work that is being done there by the employee. (iv) Forums: These are generally specific questions with answers provided on the company website.
+
+---
+
+Q15. What are the eight stages of analysing the usability of a product?
+
+A15. (i) Complexity; the level of effort required by the user to achieve the system's goal (ii) Errors; number of issues or problems (iii) Learnability; time required to accomplish a task on the first run (iv) Memorability; time required to accomplish a task after it hasn't been used for a while (v) Efficiency; how quick the system runs (vi) Readability; ease of reading (vii) Effectiveness; how effective is the system at achieving its goal (viii) Satisfaction; users view towards the system after using it
+
+---
+
+Q16. What are the social issues with improvements in technology?
+
+A16. Over the years, there have been many new technologies development. Some of these have left many people out of work. There is also an unbalance between rich and poor that becomes evident through technology.
+
+---
+
+Q17. What are the three categories of authentication?
+
+A17. (i) Knowledge Factors; something only you know like what was the first meal you cooked or password. (ii) Possession Factors; something that you own like an ATM card or identity calculator. (iii) Inherence Factors; something that you are like hair sample or fingerprint.
+
+---
+
+Q18. When should you use an interview and when should you use a questionnaire?
+
+A18. Interview for qualitative data. Questionnaire for quantitive data.
+
+---
+
+Q19. Why build prototypes?
+
+A19. A prototype allows you to see early on, the issues that the final product may have. It also allows for modifications to be made early on, which could help improve the final product.
+
+---
+
+Q20. What are the different types of charts? How do they differ?
+
+A20. (i) A structure chart is used to show the TDD in its hierarchical form. (ii) A system flowchart refers to the description of the flow of data; its directions and functions. (iii) A data flowchart shows how data moves through a system and what data stores the system uses.

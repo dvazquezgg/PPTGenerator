@@ -1,0 +1,138 @@
+Unit 3 Questions and Answers
+
+Q1. What is a computer system?
+
+A1. A computer system consists of hardware and software, comprising of four stages: (i) input (keyboards, mouse); (ii) processor (CPU); (iii) memory (RAM, SSD); (iv) output (monitor, speakers).
+
+---
+
+Q2. What is system software?
+
+A2. System software is responsible for running hardware and managing computer systems; Windows 10, Mac OS, drivers, utilities.
+
+---
+
+Q3. What is application software?
+
+A3. Application software enables the user to perform a specific task; Chrome browser, Microsoft Word, Adobe Reader.
+
+---
+
+Q4. What is GUI?
+
+A4. Graphical User Interface (GUI) includes a graphical interface in which the user can navigate around the application by pressing buttons. There are graphical icons and visual indicators, toolbars (fonts, colours, functions), menus (file, edit tab) including the main window for interaction.
+
+---
+
+Q5. What is CLI?
+
+A5. Command Line Interface (CLI) includes a command interface that is a non-graphical user interface for which the user types their command into a box. From there the computer then runs this command.
+
+---
+
+Q6. What is the CPU? What are the different components in a CPU?
+
+A6. The Central Processing Unit (CPU) is the intelligent (Intel) brain of the computer. It is also known as the processor. It is responsible for the processing of the instructions given to a computer. The CPU comprises of the following components: (i) Control Unit; (ii) Arithmetic Logic Unit; (iii) Memory Address Register; (iv) Memory Data Register.
+
+---
+
+Q7. What are the different types of buses? What do they each do?
+
+A7. - Address bus: Transmits the address between the processor and memory in a unidirectional way.
+   - Control bus: Signals sent by the processor to control the memory and peripheral devices in a unidirectional way.
+   - Data bus: Sends data between the processor, memory, and input-output devices in a bi-directional way.
+
+---
+
+Q8. What are registers? List the main types?
+
+A8. Registers are small storage locations that can hold data in multiples of 8 bits (1 Byte). A 32-bit register holds 32 bits of data. Registers are high-speed storage areas within the computer for which all data/instructions must be represented in a register before it can be processed. There are four main registers: (i) MAR; (ii) MDR; (iii) CIR; (iv) PC.
+
+---
+
+Q9. What is the difference between MAR and MDR?
+
+A9. The Memory Address Register (MAR) stores the data address to be processed. The Memory Data Register (MDR) stores the data contents to be processed.
+
+---
+
+Q10. What is RAM?
+
+A10. Random Access Memory (RAM) is a temporary memory that stores data that is currently being used by the computer.
+
+---
+
+Q11. What is the difference between DRAM and SRAM?
+
+A11. DRAM, known as the main memory, consists of transistors that have to be constantly refreshed. It is slower than SRAM but cheaper to buy than the SRAM. The SRAM, known as the cache memory, consists of flip-flops that need not be refreshed constantly. It is faster than DRAM but costs more to buy.
+
+---
+
+Q12. What is ROM?
+
+A12. Read Only Memory (ROM) is a permanent memory that is used to store the instructions to run a computer. These set of instructions are called the boot process.
+
+---
+
+Q13. What is cache? What are the three types of cache?
+
+A13. The cache is the SRAM of the computer. It temporarily stores instructions and data. The cache holds the information from the RAM that is most actively used. There are three types of cache: (i) L1 cache which is placed on the processor itself and holds up to 256 KB; (ii) L2 cache which is placed between the processor and the main memory, whereby it holds up to 8 MB; (iii) L3 cache which is shared between all CPU cores and holds up to 50 MB.
+
+---
+
+Q14. What is secondary memory? What are the three main types of storage?
+
+A14. Secondary memory is a slow memory that can be written to (like the RAM), but also is non-volatile (like the ROM), so if there is a power down, all data is available for use when turning on the computer again. The secondary memory is used for long term storage of files. The three main types of secondary memory are Hard drives, Solid-state drives, and CDs.
+
+---
+
+Q15. What is virtual memory? How does it work?
+
+A15. The computer makes a place in the hard drive to store temporary data. This part of the hard drive is called the virtual memory. Data that is not immediately needed is relocated from the RAM to the virtual memory. When data is required, it is copied back again to the RAM.
+
+---
+
+Q16. What is the difference between processors, primary memory, and secondary memory?
+
+A16. - Processor: Runs step-by-step instructions using the fetch-decode-run cycle. Intel i3, i5, i7, and AMD chips are types of CPU.
+   - Primary Memory: Stores program operations and data during the running of a program. Registers, cache, RAM, and virtual memory are types of primary memory.
+   - Secondary Memory: Stores program files and data even when not in use. Hard drives, SSD, USB memory disk, and CDs are types of secondary memory.
+
+---
+
+Q17. What are the transfer speeds?
+
+A17. - RAM = 15,000 MB/s
+   - SSD = 300 MB/s
+   - HDD = 100 MB/s
+   - USB = 90 MB/s
+   - Blu-ray = 72 MB/s
+   - DVD = 1.32 MB/s
+   - CD = 0.15 MB/s
+
+---
+
+Q18. What kind of light is used in a CD and DVD?
+
+A18. Red laser light.
+
+---
+
+Q19. What are the four main stages of the computer cycle?
+
+A19. (i) Fetch instructions from the primary memory to the control unit (CU).
+(ii) Decode instructions in the control unit (CU).
+(iii) Run the instruction.
+(iv) Store the result and check for the next instruction.
+
+---
+
+Q20. What are the seven sequences of how instructions are processed in a computer cycle?
+
+A20. (i) The PC contains the address of the next instruction to be fetched.
+(ii) The address contained in the PC is copied to the MAR via the address bus.
+(iii) The instruction is then copied from the memory location contained in the MAR and is placed in the MDR.
+(iv) The entire instruction is then copied from the MDR and placed in the CIR.
+(v) The value in the PC is then incremented so that it points to the next instruction to be fetched.
+(vi) The address part of the instruction is placed in the MAR.
+(vii) The instruction is finally decoded and is then run.
